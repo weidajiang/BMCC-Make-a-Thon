@@ -6,8 +6,8 @@
 ## What it does
 
 ## Challenges we ran into
-* Cross platform
-* 
+* Cross platform - integrate IOS App, Java, and Unity Project together
+* Human Robot Interaction
 
 
 ## Accomplishments that we're proud of
