@@ -1,0 +1,38 @@
+PODS:
+  - BMSAnalyticsAPI (2.3.1)
+  - BMSCore (2.6.0):
+    - BMSAnalyticsAPI (~> 2.3)
+  - IBMSwiftSDKCore (1.0.0)
+  - IBMWatsonAssistantV1 (3.5.1):
+    - IBMSwiftSDKCore (~> 1.0.0)
+  - MessageKit (0.13.5)
+  - NVActivityIndicatorView/Base (5.0.0)
+  - NVActivityIndicatorView/Extended (5.0.0):
+    - NVActivityIndicatorView/Base
+
+DEPENDENCIES:
+  - BMSCore (~> 2.6.0)
+  - IBMWatsonAssistantV1 (~> 3.5.0)
+  - MessageKit (~> 0.13)
+  - NVActivityIndicatorView/Extended
+
+SPEC REPOS:
+  trunk:
+    - BMSAnalyticsAPI
+    - BMSCore
+    - IBMSwiftSDKCore
+    - IBMWatsonAssistantV1
+    - MessageKit
+    - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  BMSAnalyticsAPI: f9c740eb3c0857c0955e58a10321a96b5d85304e
+  BMSCore: 969b124f0170d0113a0926e73118057ca7d1eab3
+  IBMSwiftSDKCore: 54ad77b03a4d27b218ba514580197db3b89a96ca
+  IBMWatsonAssistantV1: b36e752b4a9ce08a925cae3e432dc2d07ba481ec
+  MessageKit: c4bd50e285a0f0761bc23a2e982aa7840873c4f5
+  NVActivityIndicatorView: f109ed069924ac1b4adbc1ae9cfaeac0be1d6c2c
+
+PODFILE CHECKSUM: 3645ad7524c1fbc7fd329631e28dd38e0d07139f
+
+COCOAPODS: 1.9.3
