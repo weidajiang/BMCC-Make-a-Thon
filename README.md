@@ -1,7 +1,7 @@
 # BMCC Make-a-Thon
 
 ## Inspiration
-With the explosion of Covid - 19, personal protection and good hygiene have become a top priorityThere are many many resources online, showing people how to protect themselves during the pandemic. But for autistic children, traditional education may not make them realize the importance of personal protection.
+With the explosion of Covid - 19, personal protection and good hygiene have become a top priority. There are many resources online, showing people how to protect themselves during the pandemic. But for autistic children, traditional education may not make them realize the importance of personal protection.
 Thus, we hypothesise using NAO Humanoid robot would be a better way to attract children and guide them in the right response to a global pandemic.
 ## What it does
 
