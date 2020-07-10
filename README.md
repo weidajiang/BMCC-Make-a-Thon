@@ -4,6 +4,7 @@
 With the explosion of Covid - 19, personal protection and good hygiene have become a top priority. There are many resources online, showing people how to protect themselves during the pandemic. But for autistic children, traditional education may not make them realize the importance of personal protection.
 Thus, we hypothesise using NAO Humanoid robot would be a better way to attract children and guide them in the right response to a global pandemic.
 ## What it does
+We decided to develop a Human-Robot Interaction system integrating IOS, NAO robot and virtual reality. The system will develop a chatbot, based on the IBM framework. Depending on the content of the chat, the program invokes the back-end service over the HTTP protocol. The Java server will process the requests and send different commands to the NAO Robot and control it to complete the corresponding animation. 
 
 ## Challenges we ran into
 * Cross platform - integrate IOS App, Java, and Unity Project together
