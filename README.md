@@ -7,11 +7,12 @@
 
 ## Challenges we ran into
 * Cross platform - integrate IOS App, Java, and Unity Project together
-* Human Robot Interaction
+* Human Robot Interaction Design
 
 
 ## Accomplishments that we're proud of
-
+* Built a chat bot prototype using IBM Watson Assistant API for Swift
+* Developed two animations([sneech and eye inching](https://drive.google.com/file/d/1ZtLOeNfJfbHRQZAkcBfdbvIF2eOiHNAW/view?usp=sharing)).
 
 
 ## What we learned
