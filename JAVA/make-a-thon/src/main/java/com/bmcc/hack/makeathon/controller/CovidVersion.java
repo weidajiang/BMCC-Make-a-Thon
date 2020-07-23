@@ -2,6 +2,7 @@ package com.bmcc.hack.makeathon.controller;
 
 import com.aldebaran.qi.Application;
 import com.alibaba.fastjson.JSON;
+import com.bmcc.hack.makeathon.animation.ElbowBump;
 import com.bmcc.hack.makeathon.animation.EyeInchy;
 import com.bmcc.hack.makeathon.animation.Sneene;
 import com.bmcc.hack.makeathon.util.UtilTool;
@@ -32,13 +33,35 @@ public class CovidVersion {
         application.start();
 
         Sneene sneene = new Sneene();
-        Map<String, Integer> result = new HashMap<String, Integer>();
+        Map<String, String> result = new HashMap<String, String>();
         // call sneene module
         try {
             sneene.run(application.session());
-            result.put("status", 200);
+            result.put("result", "Good job");
         } catch (Exception e) {
-            result.put("status", 500);
+            result.put("result", "Error");
+            e.printStackTrace();
+        }
+        // convert it to JSON
+        String jsonStr = JSON.toJSONString(result);
+        application.stop();
+        return jsonStr;
+    }
+
+    @RequestMapping ("/elbowBump")
+    public String elbowBump() {
+
+
+        application.start();
+
+        ElbowBump elbowBump = new ElbowBump();
+        Map<String, String> result = new HashMap<String, String>();
+        // call sneene module
+        try {
+            elbowBump.run(application.session());
+            result.put("result", "Good Job");
+        } catch (Exception e) {
+            result.put("result", "Error");
             e.printStackTrace();
         }
         // convert it to JSON
@@ -50,18 +73,16 @@ public class CovidVersion {
     @RequestMapping ("/eyeInchy")
     public String eyeInchy() {
 
-
-
         application.start();
 
         EyeInchy eyeInchy = new EyeInchy();
-        Map<String, Integer> result = new HashMap<String, Integer>();
+        Map<String, String> result = new HashMap<String, String>();
         // call sneene module
         try {
             eyeInchy.run(application.session());
-            result.put("status", 200);
+            result.put("result", "Good Job");
         } catch (Exception e) {
-            result.put("status", 500);
+            result.put("result", "Error");
             e.printStackTrace();
         }
         // convert it to JSON

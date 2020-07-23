@@ -215,7 +215,6 @@ public class EyeInchy {
 
     }
 
-
     public static void main(String[] args) throws Exception {
         Application application = new Application(args, UtilTool.LOCALURL);
 
