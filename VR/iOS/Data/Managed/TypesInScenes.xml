@@ -1,0 +1,133 @@
+<linker>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.Object" preserve="nothing"/>
+		<type fullname="UnityEditor.MonoScript" preserve="nothing"/>
+		<type fullname="UnityEngine.Material" preserve="nothing"/>
+		<type fullname="UnityEditor.UnityConnectSettings" preserve="nothing"/>
+		<type fullname="UnityEditor.VFXManager" preserve="nothing"/>
+		<type fullname="UnityEngine.Shader" preserve="nothing"/>
+		<type fullname="UnityEditor.AudioManager" preserve="nothing"/>
+		<type fullname="UnityEditor.PlayerSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
+		<type fullname="UnityEditor.PhysicsManager" preserve="nothing"/>
+		<type fullname="UnityEditor.TimeManager" preserve="nothing"/>
+		<type fullname="UnityEditor.InputManager" preserve="nothing"/>
+		<type fullname="UnityEditor.TagManager" preserve="nothing"/>
+		<type fullname="UnityEditor.MonoManager" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.GraphicsSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.QualitySettings" preserve="nothing"/>
+		<type fullname="UnityEditor.Physics2DSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.Transform" preserve="nothing"/>
+		<type fullname="UnityEngine.Animations.LookAtConstraint" preserve="nothing"/>
+		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
+		<type fullname="UnityEngine.Camera" preserve="nothing"/>
+		<type fullname="UnityEngine.FlareLayer" preserve="nothing"/>
+		<type fullname="UnityEngine.Renderer" preserve="nothing"/>
+		<type fullname="UnityEngine.LineRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.Light" preserve="nothing"/>
+		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
+		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
+		<type fullname="UnityEngine.Texture" preserve="nothing"/>
+		<type fullname="UnityEngine.Collider" preserve="nothing"/>
+		<type fullname="UnityEngine.CharacterController" preserve="nothing"/>
+		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.CapsuleCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.TextMesh" preserve="nothing"/>
+		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
+		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
+		<type fullname="UnityEngine.Motion" preserve="nothing"/>
+		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
+		<type fullname="UnityEngine.Behaviour" preserve="nothing"/>
+		<type fullname="UnityEngine.Animator" preserve="nothing"/>
+		<type fullname="UnityEngine.Component" preserve="nothing"/>
+		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
+		<type fullname="UnityEditor.Animations.AnimatorController" preserve="nothing"/>
+		<type fullname="UnityEngine.Avatar" preserve="nothing"/>
+		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
+		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.Font" preserve="nothing"/>
+		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
+		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
+		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
+		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.CanvasGroup" preserve="nothing"/>
+		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Assembly-CSharp-firstpass">
+		<type fullname="GameCreator.Characters.CharacterAnimator" preserve="nothing"/>
+		<type fullname="GameCreator.Characters.PlayerCharacter" preserve="nothing"/>
+		<type fullname="GameCreator.Core.ActionSetActive" preserve="nothing"/>
+		<type fullname="GameCreator.Core.Actions" preserve="nothing"/>
+		<type fullname="GameCreator.Core.CanvasRenderMode" preserve="nothing"/>
+		<type fullname="GameCreator.Core.Clause" preserve="nothing"/>
+		<type fullname="GameCreator.Core.DataProviderDefault" preserve="nothing"/>
+		<type fullname="GameCreator.Core.DatabaseGeneral" preserve="nothing"/>
+		<type fullname="GameCreator.Core.DatabaseQuickstart" preserve="nothing"/>
+		<type fullname="GameCreator.Core.Hooks.HookPlayer" preserve="nothing"/>
+		<type fullname="GameCreator.Core.IActionsList" preserve="nothing"/>
+		<type fullname="GameCreator.Core.IConditionsList" preserve="nothing"/>
+		<type fullname="GameCreator.Core.IgniterStart" preserve="nothing"/>
+		<type fullname="GameCreator.Core.IgniterTriggerEnterTag" preserve="nothing"/>
+		<type fullname="GameCreator.Core.IgniterTriggerExitTag" preserve="nothing"/>
+		<type fullname="GameCreator.Core.TouchStick" preserve="nothing"/>
+		<type fullname="GameCreator.Core.Trigger" preserve="nothing"/>
+		<type fullname="GameCreator.Feedback.DatabaseFeedback" preserve="nothing"/>
+		<type fullname="GameCreator.Localization.DatabaseLocalization" preserve="nothing"/>
+		<type fullname="GameCreator.Messages.ActionFloatingMessage" preserve="nothing"/>
+		<type fullname="GameCreator.Variables.DatabaseVariables" preserve="nothing"/>
+		<type fullname="GameCreator.Variables.GlobalTags" preserve="nothing"/>
+		<type fullname="GameCreator.Variables.GlobalVariables" preserve="nothing"/>
+		<type fullname="GameCreator.Variables.LocalVariables" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="GoogleVR.Beta.GvrBetaControllerVisualMulti" preserve="nothing"/>
+		<type fullname="GoogleVR.Demos.DemoInfoPanel" preserve="nothing"/>
+		<type fullname="GoogleVR.Demos.DemoInputManager" preserve="nothing"/>
+		<type fullname="GoogleVR.Demos.DemoSceneManager" preserve="nothing"/>
+		<type fullname="GoogleVR.HelloVR.HeadsetDemoManager" preserve="nothing"/>
+		<type fullname="GoogleVR.HelloVR.HelloVRManager" preserve="nothing"/>
+		<type fullname="Gvr.Internal.InstantPreview" preserve="nothing"/>
+		<type fullname="GvrArmModel" preserve="nothing"/>
+		<type fullname="GvrControllerInput" preserve="nothing"/>
+		<type fullname="GvrControllerReticleVisual" preserve="nothing"/>
+		<type fullname="GvrControllerTooltipsSimple" preserve="nothing"/>
+		<type fullname="GvrEditorEmulator" preserve="nothing"/>
+		<type fullname="GvrHeadset" preserve="nothing"/>
+		<type fullname="GvrLaserPointer" preserve="nothing"/>
+		<type fullname="GvrLaserVisual" preserve="nothing"/>
+		<type fullname="GvrPointerInputModule" preserve="nothing"/>
+		<type fullname="GvrPointerPhysicsRaycaster" preserve="nothing"/>
+		<type fullname="GvrReticlePointer" preserve="nothing"/>
+		<type fullname="GvrTrackedController" preserve="nothing"/>
+		<type fullname="InstantPreviewHelper" preserve="nothing"/>
+		<type fullname="VRLookWalk" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="SteamVR">
+		<type fullname="Valve.VR.SteamVR_Behaviour_Skeleton" preserve="nothing"/>
+		<type fullname="Valve.VR.SteamVR_ExternalCamera" preserve="nothing"/>
+		<type fullname="Valve.VR.SteamVR_Settings" preserve="nothing"/>
+		<type fullname="Valve.VR.SteamVR_Skeleton_Pose" preserve="nothing"/>
+		<type fullname="Valve.VR.SteamVR_Skeleton_Poser" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.ProBuilder">
+		<type fullname="UnityEngine.ProBuilder.ProBuilderMesh" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.TextMeshPro">
+		<type fullname="TMPro.TMP_ColorGradient" preserve="nothing"/>
+		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
+		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
+		<type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.GraphicRaycaster" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>
+	</assembly>
+</linker>
