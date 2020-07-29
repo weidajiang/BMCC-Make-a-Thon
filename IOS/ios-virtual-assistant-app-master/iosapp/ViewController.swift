@@ -527,12 +527,31 @@ extension ViewController: MessageInputBarDelegate {
         inputBar.inputTextView.text = String()
         messagesCollectionView.insertSections([messageList.count - 1])
         messagesCollectionView.scrollToBottom()
+        
+        
 
         // cleanup text that gets sent to Watson, which doesn't care about whitespace or newline characters
         let cleanText = text
             .trimmingCharacters(in: .whitespacesAndNewlines)
             .replacingOccurrences(of: "\n", with: ". ")
-
+        
+        // MARK: - HTTP REQUEST
+        // perform http request to control NAO robot based on user input
+        if(cleanText.contains("itchy") || cleanText.contains("Itchy")) {
+            httpRequestDemo().perfromRequest(urlSring: "https://2836231122c1.ngrok.io/eyeInchy")
+            print("http request successful")
+        }
+        
+        if(cleanText.contains("sneeze") || cleanText.contains("Sneeze")) {
+            httpRequestDemo().perfromRequest(urlSring: "https://2836231122c1.ngrok.io/sneene")
+            print("http request successful")
+        }
+        
+        if(cleanText.contains("shake") || cleanText.contains("Shake")) {
+            httpRequestDemo().perfromRequest(urlSring: "https://2836231122c1.ngrok.io/elbowBump")
+            print("http request successful")
+        }
+        
         // Pass the intent to Watson Assistant and get the response based on user text create a message
         // Call the Assistant API
         let input = MessageInput(text: cleanText)
