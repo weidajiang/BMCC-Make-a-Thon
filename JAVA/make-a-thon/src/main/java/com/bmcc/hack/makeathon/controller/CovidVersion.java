@@ -26,7 +26,7 @@ public class CovidVersion {
     String[] args = {};
     Application application = new Application(args, UtilTool.LOCALURL);
 
-    @RequestMapping ("/sneene")
+    @RequestMapping ("/sneeze")
     public String sneene() {
 
 
@@ -70,8 +70,8 @@ public class CovidVersion {
         return jsonStr;
     }
 
-    @RequestMapping ("/eyeInchy")
-    public String eyeInchy() {
+    @RequestMapping ("/eyeItchy")
+    public String eyeItchy() {
 
         application.start();
 

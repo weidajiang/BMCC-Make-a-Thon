@@ -313,15 +313,17 @@
 				TargetAttributes = {
 					555C91A71D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = QVS9HADB5R;
+						DevelopmentTeam = 7299JK326U;
 						LastSwiftMigration = 1110;
 					};
 					555C91BB1D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7299JK326U;
 						LastSwiftMigration = 1110;
 					};
 					555C91C61D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7299JK326U;
 						LastSwiftMigration = 1110;
 						TestTargetID = 555C91A71D0F0731003E84E3;
 					};
@@ -633,7 +635,7 @@
 			baseConfigurationReference = 34A3ABE8B34C7CE0E49EFC73 /* Pods-iosvirtualassistantapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QVS9HADB5R;
+				DEVELOPMENT_TEAM = 7299JK326U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -641,7 +643,7 @@
 				INFOPLIST_FILE = iosapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.natandse.iosvirtualassistantapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crsp.jwd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -652,7 +654,7 @@
 			baseConfigurationReference = 93B8E135EBE1BBD3FBD5032F /* Pods-iosvirtualassistantapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QVS9HADB5R;
+				DEVELOPMENT_TEAM = 7299JK326U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -660,7 +662,7 @@
 				INFOPLIST_FILE = iosapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.natandse.iosvirtualassistantapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crsp.jwd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -670,6 +672,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ACEA392A2E3080911FA5B2A6 /* Pods-iosvirtualassistantappTests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7299JK326U;
 				INFOPLIST_FILE = iosappTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosappTests;
@@ -682,6 +685,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC07D8870FA641AC2946190A /* Pods-iosvirtualassistantappTests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7299JK326U;
 				INFOPLIST_FILE = iosappTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosappTests;
@@ -694,6 +698,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 266A6F8C6132C0DCFD16A8CC /* Pods-iosvirtualassistantappUITests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7299JK326U;
 				INFOPLIST_FILE = iosappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosappUITests;
@@ -708,6 +713,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B979C8A3C4008F48CEE9634 /* Pods-iosvirtualassistantappUITests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7299JK326U;
 				INFOPLIST_FILE = iosappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iosappUITests;

@@ -9,6 +9,8 @@ import Speech
 
 struct httpRequestDemo {
     
+    
+    
     // http GET request
     // urlString such as https://853d1cb2.ngrok.io/greeting;
     
