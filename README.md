@@ -1,4 +1,8 @@
-# BMCC Make-a-Thon
+# BMCC Make-a-Thon 2020 Call for Code IBM Global Challenge 
+
+# Project Title
+
+COVID-19 Education Suite for ASD
 
 ## Inspiration
 With the explosion of Covid - 19, personal protection and good hygiene have become a top priority. There are many resources online, showing people how to protect themselves during the pandemic. But for autistic children, traditional education may not make them realize the importance of personal protection.
